@@ -1,0 +1,11 @@
+let inputM;
+let inputN;
+let inputP;
+inputM = prompt("điểm lí");
+inputN = prompt("điểm toán");
+inputP = prompt("điểm hóa");
+let M = parseInt(inputM);
+let N = parseInt(inputN);
+let P = parseInt(inputP);
+let TBC = (M + N +P)/3;
+document.write("kết quả: " + TBC);
